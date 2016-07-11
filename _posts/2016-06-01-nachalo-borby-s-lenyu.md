@@ -3,7 +3,7 @@ layout: post
 title: Начало борьбы с ленью
 excerpt_separator: <!--more-->
 ---
-![_config.yml]({{ site.baseurl }}/images/thumbnails/post-1.jpg)
+![_config.yml]({{ site.baseurl }}/images/thumbs/post-1.jpg)
 
 Недавно я дошел до края - из-за моей лени у меня почти кончились деньги, заработок в день плавает от 0 до 300 рублей, а моя жизнь идет неизвестно в какую сторону. Это было небольшое предисловие.
 
