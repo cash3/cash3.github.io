@@ -275,6 +275,19 @@ nav {
     width: 300px;
   }
 
+  p.tip {
+    padding: 20px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-radius: 4px;
+
+    .img-tip {
+      float: left;
+      margin-right: 20px;
+    }
+
+  }
+
   .comments {
     margin-top: 10px;
   }
