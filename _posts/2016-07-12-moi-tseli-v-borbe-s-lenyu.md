@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Мои цели в борьбе с ленью
+comments: true
 excerpt_separator: <!--more-->
 ---
 ![_config.yml]({{ site.baseurl }}/images/thumbs/post-2.jpg)

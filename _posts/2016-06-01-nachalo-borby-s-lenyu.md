@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Начало борьбы с ленью
+comments: true
 excerpt_separator: <!--more-->
 ---
 ![_config.yml]({{ site.baseurl }}/images/thumbs/post-1.jpg)
