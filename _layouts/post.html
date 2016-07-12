@@ -13,8 +13,5 @@ layout: default
     Опубликовано {{ page.date | date: "%d.%m.%Y" }}
   </div>
     
-  <div id="vk_comments"></div>
-    <script type="text/javascript">
-    VK.Widgets.Comments("vk_comments", {limit: 10, width: "720", attach: "*"});
-    </script>
+  {% include vkcomments.html %}
 </article>
