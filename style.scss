@@ -297,6 +297,21 @@ nav {
 
   }
 
+  .share {
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 3px dashed #e4e4e4;
+
+    h3 {
+      margin: 0 0 15px 0;
+    }
+    #vk_like, .twitter-share-button, .fb-share-button {
+      display: inline-block;
+    }
+  }
+
   .comments {
     margin-top: 40px;
   }
