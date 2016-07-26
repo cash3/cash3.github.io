@@ -11,13 +11,9 @@
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+      js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.7";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    <!-- Your share button code -->
-    <div class="fb-share-button" 
-        data-href="http://cash3.ru{{ page.url }}" 
-        data-layout="button_count">
-    </div>
+    <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://cash3.ru/{{ page.url }}&amp;src=sdkpreparse">Поделиться</a></div>
 </div>
