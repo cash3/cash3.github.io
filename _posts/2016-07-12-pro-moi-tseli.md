@@ -3,6 +3,7 @@ layout: post
 title: Мои цели
 comments: true
 excerpt_separator: <!--more-->
+number: three
 ---
 ![Пачки евро]({{ site.baseurl }}/images/thumbs/post-3.jpg)
 

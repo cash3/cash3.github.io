@@ -3,6 +3,7 @@ layout: post
 title: Первый совет для борьбы с ленью
 comments: true
 excerpt_separator: <!--more-->
+number: two
 ---
 ![Just Do It]({{ site.baseurl }}/images/thumbs/post-2.jpg)
 

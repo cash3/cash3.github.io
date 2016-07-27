@@ -3,6 +3,7 @@ layout: post
 title: Начало борьбы
 comments: true
 excerpt_separator: <!--more-->
+number: one
 ---
 ![Джейкоб из GTA 4]({{ site.baseurl }}/images/thumbs/post-1.jpg)
 
