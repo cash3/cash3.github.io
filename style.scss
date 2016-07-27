@@ -307,8 +307,47 @@ nav {
     h3 {
       margin: 0 0 15px 0;
     }
-    #vk_like, .twitter-share-button, .fb-share-button {
+    #ShareButton {}
+    #ShareButton a {
       display: inline-block;
+      cursor: pointer;
+      font: 300 13px/13px 'Open Sans', sans-serif;
+      color: #FFF;
+      background: #000;
+      height: 40px;
+      border-radius: 4px;
+      padding: 0 15px;
+      margin-right: 8px;
+      background-image: url('images/social.png');
+      background-size: 20px;
+      background-repeat: no-repeat;
+      vertical-align: top;
+      line-height: 40px;
+      font-weight: bold;
+    }
+    #ShareButton a.tw-share {
+      background-color: #00aced;
+      padding-left: 40px;
+      background-position: 13px 12px;
+    }
+    #ShareButton a.tw-share:hover {
+      background-color: #0082e4;
+    }
+    #ShareButton a.vk-share {
+      background-color: #507299;
+      background-position: 15px -17px;
+      padding-left: 40px;
+    }
+    #ShareButton a.vk-share:hover {
+      background-color: #143783;
+    }
+    #ShareButton a.fb-share {
+      background-color: #3b5998;
+      background-position: 16px -46px;
+      padding-left: 40px;
+    }
+    #ShareButton a.fb-share:hover {
+      background-color: #143783;
     }
   }
 
@@ -338,3 +377,9 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+@media screen and (max-width: 545px) {
+   #ShareButton a.fb-share {
+    margin-top: 10px;
+   }
+}
