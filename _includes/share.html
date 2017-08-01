@@ -1,9 +1,0 @@
-{% assign pic = site.data.pics[page.number] %}
-<div class="share">
-    <h3>Понравился пост? Поделись с друзьями!</h3>
-    <div id='ShareButton'>
-      <a class="vk-share" onclick="Share.vkontakteDesktop('http://cash3.ru{{ page.url }}','{{ page.title }}','http://cash3.ru/images/thumbs/{{ pic.url }}','{{ page.description }}')">Поделиться</a>
-      <a class="tw-share" onclick="Share.twitterDesktop('http://cash3.ru{{ page.url }}','{{ page.title }} (via @anon_cash3)')">Твитнуть</a>
-      <a class="fb-share" onclick="Share.facebookDesktop('http://cash3.ru{{ page.url }}','{{ page.title }}','http://cash3.ru/images/thumbs/{{ pic.url }}','{{ page.description }}')">Поделиться</a>
-  </div>
-</div>
